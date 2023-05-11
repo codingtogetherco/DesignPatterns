@@ -19,6 +19,5 @@ public class FactoryComponent implements CommandLineRunner {
     public void run(String...args) throws Exception {
         PaymentMethods implementation = factory.getImplementation("2");
         log.info("Factory - Is MyFirstImplementation implementation? {}", implementation instanceof Paypal);
-
     }
 }

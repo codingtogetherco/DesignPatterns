@@ -1,7 +1,6 @@
-package co.com.coding.together.designpatterns.behavioral;
+package co.com.coding.together.designpatterns.behavioral.observer;
 
-
-public class Subscriber1 implements Subscriber {
+public class Subscriber2 implements Subscriber {
 
     @Override
     public void update(String newContent) {

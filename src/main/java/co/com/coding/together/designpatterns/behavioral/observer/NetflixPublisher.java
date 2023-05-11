@@ -1,4 +1,4 @@
-package co.com.coding.together.designpatterns.behavioral;
+package co.com.coding.together.designpatterns.behavioral.observer;
 
 import org.springframework.stereotype.Component;
 

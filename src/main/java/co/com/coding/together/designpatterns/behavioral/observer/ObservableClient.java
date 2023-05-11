@@ -1,4 +1,4 @@
-package co.com.coding.together.designpatterns.behavioral;
+package co.com.coding.together.designpatterns.behavioral.observer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
