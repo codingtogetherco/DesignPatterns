@@ -17,7 +17,16 @@ public class FactoryComponent implements CommandLineRunner {
 
     @Override
     public void run(String...args) throws Exception {
-        PaymentMethods implementation = factory.getImplementation("2");
+        PaymentMethods implementation = getImplementation();
         log.info("Factory - Is MyFirstImplementation implementation? {}", implementation instanceof Paypal);
     }
+
+    public PaymentMethods getImplementation() {
+        return factory.getImplementation("2");
+    }
+
+    public String myNewMethod() {
+        return "Mystring";
+    }
+
 }
